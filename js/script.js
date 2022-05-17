@@ -1,4 +1,21 @@
 
+// script statemnet control
+var answer = 'Wan Muhamad Adil';
+var answer2 = 'Wan';
+
+if (prompt("What's your name?")) {
+  if ((answer == 'Wan Muhammad Adil')) {
+    var callback = function () {
+      alert('Oh hi! ' + answer);
+    };
+  }
+} else {
+  if ((answer2 == 'Wan')) {
+    setTimeout(callback, 1000);
+  } else {
+    alert("Then whats your name if it's not Wan?");
+  }
+}
 // script teks menulis sendiri
 const txtElement = ['Wan  ', 'Muhammad  ', 'Adil  '];
 let count = 0;
